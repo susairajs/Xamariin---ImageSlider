@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:XamarinImageSlider"
+             xmlns:controls="clr-namespace:Xamd.ImageCarousel.Forms.Plugin.Abstractions;assembly=Xamd.ImageCarousel.Forms.Plugin.Abstractions"
+             x:Class="XamarinImageSlider.MainPage">
+    <StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Image Margin="0,50,0,0" x:Name="imgBanner" Source="banner.png" ></Image>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="End">
+            <controls:ImageCarousel x:Name="imgSlider" HeightRequest="300" WidthRequest="300" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
