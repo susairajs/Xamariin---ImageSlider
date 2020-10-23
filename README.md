@@ -1,4 +1,4 @@
-# Image Slider in Xamarin
+# Image Slider in Xamarin.Forms
 **Image Slider**
 
 
@@ -12,6 +12,6 @@
 3. To initiate user **ImageCarouselRenderer.Init();**.
 4. Then bind the images what you want in image slider.
 
-##Reference
+## Reference
 
 [https://www.c-sharpcorner.com/article/xamarin-forms-image-slider-using-image-carousel-plugin/](https://www.c-sharpcorner.com/article/xamarin-forms-image-slider-using-image-carousel-plugin/)
