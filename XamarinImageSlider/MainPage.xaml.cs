@@ -10,16 +10,16 @@ namespace XamarinImageSlider
 {
     public partial class MainPage : ContentPage
     {
+        ///Get set collection FileImageSource
         ObservableCollection<FileImageSource> imageSources = new ObservableCollection<FileImageSource>();
         public MainPage()
         {
             InitializeComponent();
-
+            
+            ///Add images to ImageSlider 
             imageSources.Add("XamarinmonkeyLogo.png");
             imageSources.Add("github.png");
             imageSources.Add("microsoft.png");
-
-
             imgSlider.Images = imageSources;
         }
     }
